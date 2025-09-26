@@ -1,7 +1,7 @@
 name: [Build & Push to Dockerhub]
 on:
   push:
-  workflow-dispach:
+  workflow_dispach:
 jobs:
   docker:
     runs-on: ubuntu-latest
